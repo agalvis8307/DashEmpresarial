@@ -330,4 +330,4 @@ with tab5:
     k3.metric("Spread precio-costo", f"{(factor_p/factor_c - 1)*100:,.1f}% pts")
 
 st.markdown("---")
-st.caption("© Tu Empresa — Dashboard con Streamlit. Café en mano = mejor ROI ☕️.")
+st.caption("© Equipo de Elenita.ALejo y compañía — Dashboard con Streamlit. Café en mano = mejor ROI ☕️. jajajaja")
