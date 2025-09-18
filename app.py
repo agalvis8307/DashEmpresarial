@@ -215,6 +215,7 @@ kpis = compute_kpis(df)
 
 # --------- Header ---------
 st.title("📊 Dashboard Empresarial — Decisiones en Tiempo Casi Real")
+st.caption("Equipo: Elenita-ALejo y compañía")
 st.caption("Streamlit • Plotly • SQL/CSV • Forecast opcional • Detección de anomalías • What-if")
 
 # --------- KPIs ---------
