@@ -3,6 +3,11 @@
 Dashboard empresarial en Streamlit para explorar ventas, margen, clientes,
 productos, alertas simples y escenarios What-if.
 
+## Acceso al dashboard
+- Dashboard en vivo: https://agalvis8307-dash-empresarial.hf.space/
+- Space en Hugging Face: https://huggingface.co/spaces/agalvis8307/dash-empresarial
+- Repositorio en GitHub: https://github.com/agalvis8307/DashEmpresarial
+
 ## Estructura
 ```
 .
@@ -37,7 +42,10 @@ El forecast con Prophet está desactivado por defecto para que el dashboard
 cargue rápido. Actívalo en la pestaña `Forecast & Alertas` cuando lo necesites.
 
 ## Deploy en Hugging Face Spaces
+El despliegue activo está publicado en:
+https://agalvis8307-dash-empresarial.hf.space/
+
 1. Crea un Space y selecciona **SDK = Docker**.
 2. Sube estos archivos (o conecta el repo).
-3. El build usará el `Dockerfile` y expondrá el puerto 8501.
-4. Tu app quedará disponible en `https://huggingface.co/spaces/<user>/<space>`.
+3. Para Hugging Face Spaces, configura Streamlit en el puerto 7860.
+4. Tu app quedará disponible en `https://<usuario>-<space>.hf.space/`.
